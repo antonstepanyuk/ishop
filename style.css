@@ -1,0 +1,46 @@
+table {
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+thead td {
+    background-color: lightgreen;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+img{
+    width: 10em;
+}
+
+.Name {
+    text-align: start;
+    font-size: 1em;
+    color: black;
+    font-weight: bolder;
+}
+
+.Price {
+    text-align: center;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bolder;
+}
+
+.Photo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Count {
+    text-align: center;
+    font-size: 1em;
+    color: gray;
+}
